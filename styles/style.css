@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Open+Sans:ital@1&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #8CB36B   ;
+  --secondary-color: #2BB9EF ;
+  --accent1-color: #132B13;
+  --accent2-color: white;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "EB Garamond";
+  --paragraph-font: Open Sans, Helvetica, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #141515;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #141515; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #8CB36B  ;
+  --nav-link-color: white;
+  --nav-background-color: #2BB9EF;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #8CB36B;
+}
+/*ID PART*/
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
+}
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto; 
+}
+#hero-msg h2, #hero-msg h4{
+    text-align: center;
+    color: white;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#hero-img{
+    width: 100%;
+}
+#background{
+    height: 725px;
+    background-color: white;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+#logo_link{
+    padding-top: 10px;
+    padding-top: 10px;
+    justify-self: center;
+    align-self: center;
+}
+
+
+
+/*SECOND CLASS PART*/
+.book, .join{
+    
+    color:white;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book{
+    background-color: #2BB9EF;
+}
+.join{
+    background-color:#A3CEF1;
+}
+.book:hover, .join:hover{
+    background-color:#A3CEF1;
+    color: black;
+}
+.msg{
+    background-color:#2BB9EF;
+    line-height:1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.msg h2{
+    color: white;
+}
+.msg p{
+    color: white;
+    padding-bottom: 15px;
+}
+.button-box{
+    text-align: center;
+}
+.home-title{
+    color: white;
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
+    text-align: center;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.logo{
+    width: 80px;
+}
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+    border: 2px solid #8CB36B;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    text-align: center;
+}
+.answer_title{
+    color:#8CB36B;
+}
+.rivers-card{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.camping-card{
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.rapids-card{
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+.mountains{
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.box_quality{
+    border: 10px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+.card-img, .mountains {
+    width: 100%;
+}
+.main_p{
+ text-align: center;
+}
+/*NAME FUCTION PART*/
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover{
+    background-color:#132B13;
+    color: white;
+}
+
+main section p{
+    box-sizing: border-box;
+}
+main h1{
+    grid-column: 4/9;
+    grid-row: 1;
+    text-align: center;
+    color: #8CB36B;
+}
+main p{
+    grid-column: 3/10;
+    grid-row: 2;
+}
+/*Background-Colors Part*/
+body{
+    background-color:white;
+    font-family:var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color:#8CB36B;
+
+}
+h2 {
+    margin: 0;
+}
+
+footer{
+    background-color: #8CB36B;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    margin-top: 200px;
+}
+footer a:hover{
+    color: white;
+}
+footer p {
+    font-size: 1.2em;
+    color: white;
+}    
+
+footer .social img{
+    padding-top: 15px;
+}
+
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
+
+/* Page Experimental Class */
+
+.experimental-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: start;
+    text-align: left;
+    font-size: 25px;
+    
+}
+.flexibility {
+    grid-column: 4/6;
+    grid-row: 3/4;
+    margin: 30px;
+    
+    
+}
+ .online {
+    grid-column: 2/4;
+    grid-row: 5/6;
+    margin: 30px;
+    
+    
+ }
+
+ .teacher{
+    grid-column: 4/6;
+    grid-row: 7/8;
+    margin: 30px;
+    
+ }
+
+ .main-img1{
+    width: 100%;
+    grid-column: 2/4;
+    grid-row: 3/4;
+    
+
+ }
+ .main-img2{
+    width: 70%;
+    grid-column: 4/7;
+    grid-row: 5/6;
+    margin-top: 30px;
+
+ }
+ .main-img3{
+    width: 100%;
+    grid-column: 2/4;
+    grid-row: 7/8;
+    margin-top: 30px;
+ }
+ .main-img1, .main-img2, .main-img3{
+    box-shadow: 5px 5px 10px #6f7364;
+ }
+.flexibility, .main-img1{
+    margin-top: 50px;
+}
+.page2_p{
+    font-size: 25px;
+}
+.ec-title{
+    grid-column: 2/6;
+    text-align: center;
+}
+.ec-form{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+    grid-row: 10/11;
+    grid-column: 1/7;
+    margin-top: 40px;
+    font-size: 15px;
+}
+section div h2{
+    color: #8CB36B;
+}
+.ec-h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type="tel"],
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color:black;
+    color: white;
+  }
+  
+  /* Add a background color and some padding around the form */
+
+
+
+
+
+
+ /* Promotion CSS */
+
+ .group2-lesson, .group3-lesson, .indlesson-img{
+    width: 100%;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 1/3;
+    margin: 30px;
+    text-align: start;
+ }
+
+ .promotion-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+ }
+
+ .indlesson-img{
+    grid-row: 3/5;
+ }
+ .group2-lesson{
+    grid-row: 5/6;
+ }
+
+ .group3-lesson{
+    grid-row: 6/8;
+
+ }
+
+
+ .page3-ind, .page3-group2, .page3-group3{
+    grid-column: 4/6;
+    text-align: start;
+    margin: 30px;
+ }
+ .page3-ind{
+    grid-row: 3/5;
+ }
+ .page3-group2{
+    grid-row: 5/6;
+ }
+
+ .page3-group3{
+    grid-row: 6/8;
+ }
+
+ .div-contact{
+    grid-column: 3/5;
+    grid-row: 8/9;
+    margin-top: 100px;
+ }
+ main section h1{
+    grid-row: 1/2;
+    grid-column: 3/5;
+ }
+ div p{
+text-align: center;
+ }
+div button{
+    display: block;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+
+}
+ /* BUTTON IN THE END OF THE PAGE */
+ a{
+    text-decoration: none;
+    color: white ;
+ }
+ .button {
+    border-radius: 4px;
+    background-color: #2BB9EF;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    justify-content: center;
+
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+    color: #141515;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.whats-button{
+    position: fixed;
+    width: 60px;
+    bottom: 5px;
+    right: 5px;
+}
+
+.whats-button:active {
+    background-color: #FFFFFF;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.toph2{
+    text-align: center;
+    font-size: 15px;
+    color: #132B13;
+}
+.clockdown{
+    width: 600px; 
+    margin: 0 auto;
+    color: rgba(182, 21, 21, 0.671);
+    font-size: 60px;
+    border-radius: 30px;
+    border: #132B13;
+    box-shadow: 0 5px #666;
+}
+
