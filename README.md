@@ -1,13 +1,7 @@
-<!-- ===========================
-     PaceAcademy — README HTML
-     Paste this block into README.md
-     =========================== -->
-
 <div align="center">
-  <h1>⚡ PaceAcademy</h1>
+  <h1>PaceAcademy</h1>
   <p><em>Your Gateway to Exceptional English Learning</em></p>
 
-  <!-- Badges -->
   <p>
     <a href="https://juliodesouza121.github.io/PaceAcademyWebSite/"><img src="https://img.shields.io/badge/Live-Website-brightgreen" alt="live"></a>
     <img src="https://img.shields.io/badge/Tech-HTML_CSS_JS-informational" alt="tech">
@@ -16,26 +10,25 @@
     <a href="https://github.com/juliodesouza121/PaceAcademyWebSite"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white" alt="github"></a>
   </p>
 
-  <!-- CTA Buttons -->
   <p>
-    <a href="https://juliodesouza121.github.io/PaceAcademyWebSite/" style="text-decoration:none;padding:10px 18px;border-radius:6px;border:1px solid #0b6;display:inline-block;margin:4px;">🌐 Live Demo</a>
-    <a href="#features" style="text-decoration:none;padding:10px 18px;border-radius:6px;border:1px solid #09f;display:inline-block;margin:4px;">✨ Features</a>
-    <a href="#roadmap" style="text-decoration:none;padding:10px 18px;border-radius:6px;border:1px solid #f90;display:inline-block;margin:4px;">🛣 Roadmap</a>
+    <a href="https://juliodesouza121.github.io/PaceAcademyWebSite/" style="text-decoration:none;padding:10px 18px;border-radius:6px;border:1px solid #0b6;display:inline-block;margin:4px;">Live Demo</a>
+    <a href="#features" style="text-decoration:none;padding:10px 18px;border-radius:6px;border:1px solid #09f;display:inline-block;margin:4px;">Features</a>
+    <a href="#roadmap" style="text-decoration:none;padding:10px 18px;border-radius:6px;border:1px solid #f90;display:inline-block;margin:4px;">Roadmap</a>
   </p>
 </div>
 
 <hr>
 
-<!-- About -->
+
 <h2 id="about">About this project</h2>
 <p>
   <strong>PaceAcademy</strong> is a prototype website for an English school focused on clarity, conversion, and easy navigation.  
   It is designed as a demo project to showcase responsive design, clear CTAs, and institutional content.
 </p>
 
-<!-- Demo GIF -->
+
 <h3>Quick Demo</h3>
-<p>Here’s how the website looks in action (replace with your GIF):</p>
+<p>Here’s how the website looks in action:</p>
 <p>
   <img src="/assets/demo.gif" alt="Demo PaceAcademy" style="max-width:100%;border-radius:8px;box-shadow:0 4px 14px rgba(0,0,0,0.15);">
 </p>
