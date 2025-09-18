@@ -33,7 +33,6 @@
   <img src="/assets/demo.gif" alt="Demo PaceAcademy" style="max-width:100%;border-radius:8px;box-shadow:0 4px 14px rgba(0,0,0,0.15);">
 </p>
 
-<!-- Features -->
 <h2 id="features">Features</h2>
 <ul>
   <li>Clear presentation of the proposal (Home, Experimental Class, Promotion).</li>
@@ -43,23 +42,8 @@
   <li>Room for additional sections like testimonials, pricing plans, and FAQ.</li>
 </ul>
 
-<!-- Screenshots -->
-<h3>Screenshots</h3>
-<p>Desktop / Mobile views (replace with your actual screenshots):</p>
-<table>
-  <tr>
-    <td align="center">
-      <img src="/assets/screenshot-desktop.png" alt="Desktop" width="320" style="border-radius:6px;">
-      <p><small>Desktop</small></p>
-    </td>
-    <td align="center">
-      <img src="/assets/screenshot-mobile.png" alt="Mobile" width="180" style="border-radius:6px;">
-      <p><small>Mobile</small></p>
-    </td>
-  </tr>
-</table>
 
-<!-- Installation / Deploy -->
+
 <h2 id="installation">Deployment / Installation</h2>
 <ol>
   <li>Clone the repository: <code>git clone https://github.com/juliodesouza121/PaceAcademyWebSite.git</code></li>
@@ -71,19 +55,9 @@
 <h2 id="usage">Usage</h2>
 <p>
   Access the live demo at <a href="https://juliodesouza121.github.io/PaceAcademyWebSite/">https://juliodesouza121.github.io/PaceAcademyWebSite/</a>.  
-  Explore the navigation menu, test the buttons, and check responsiveness on mobile devices.
 </p>
 
-<!-- Roadmap -->
-<h2 id="roadmap">Roadmap / Upcoming Features</h2>
-<ul>
-  <li>✅ Optimize images for performance</li>
-  <li>✅ Improve responsiveness (mobile-first)</li>
-  <li>Add testimonials section (real student feedback)</li>
-  <li>Add sign-up form with validation</li>
-  <li>Implement multiple languages (PT/EN)</li>
-  <li>Add analytics and A/B testing for CTAs</li>
-</ul>
+
 
 <!-- Testimonials -->
 <h2 id="testimonials">Testimonials (example)</h2>
@@ -111,12 +85,6 @@
 <h2 id="contact">Contact</h2>
 <p>
   Júlio César — <a href="https://www.linkedin.com/in/júlio-césar-de-souza-0a8798233/">LinkedIn</a> •
-  <a href="mailto:your-email@example.com">your-email@example.com</a>
+  <a href="mailto:julioskn@hotmail.com">julioskn@hotmail.com</a>
 </p>
-
-<!-- License -->
-<h2 id="license">License</h2>
-<p>Distributed under the MIT License. See <code>LICENSE</code> for details.</p>
-
 <hr>
-<p style="font-size:12px;color:#666">Tip: Add a short GIF showing a user clicking a CTA and 2-3 screenshots with captions to make the README more engaging.</p>
