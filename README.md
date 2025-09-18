@@ -31,7 +31,7 @@
 <p>Here’s how the website looks in action:</p>
 <p>
   <img src="images/homePage.PNG" alt="Demo PaceAcademy" style="max-width:100%;border-radius:8px;box-shadow:0 4px 14px rgba(0,0,0,0.15);">
-<img src="images/ExperimentalClass.PNG" alt="Demo PaceAcademy" style="max-width:100%;border-radius:8px;box-shadow:0 4px 14px rgba(0,0,0,0.15);">
+<img src="images/Experimental_class.PNG" alt="Demo PaceAcademy" style="max-width:100%;border-radius:8px;box-shadow:0 4px 14px rgba(0,0,0,0.15);">
 <img src="images/Promotion.PNG" alt="Demo PaceAcademy" style="max-width:100%;border-radius:8px;box-shadow:0 4px 14px rgba(0,0,0,0.15);">
 </p>
 
