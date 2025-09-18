@@ -51,22 +51,13 @@
   <li>To update images, place them inside <code>/assets/</code> and update the paths in the README.</li>
 </ol>
 
-<!-- Usage -->
+
 <h2 id="usage">Usage</h2>
 <p>
   Access the live demo at <a href="https://juliodesouza121.github.io/PaceAcademyWebSite/">https://juliodesouza121.github.io/PaceAcademyWebSite/</a>.  
 </p>
 
 
-
-<!-- Testimonials -->
-<h2 id="testimonials">Testimonials (example)</h2>
-<blockquote>
-  <p>“Great classes, clear methodology, and motivated teachers.” — <strong>Sample Student</strong></p>
-</blockquote>
-<p>Replace with real testimonials or implement a slider inside the website for credibility.</p>
-
-<!-- Technologies -->
 <h2 id="tech">Tech Stack</h2>
 <p>
   <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="HTML5">
@@ -74,14 +65,13 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JS">
 </p>
 
-<!-- Contributing -->
+
 <h2 id="contributing">Contributing</h2>
 <p>
   Contributions are welcome!  
   Open an <strong>issue</strong> or a <strong>pull request</strong> with improvements — e.g. image optimization, layout redesign, or translation (PT/EN).
 </p>
 
-<!-- Contact -->
 <h2 id="contact">Contact</h2>
 <p>
   Júlio César — <a href="https://www.linkedin.com/in/júlio-césar-de-souza-0a8798233/">LinkedIn</a> •
